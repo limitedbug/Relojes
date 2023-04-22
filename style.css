@@ -1,0 +1,29 @@
+.reloj{
+    background-color: white;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 5px solid black;
+    position: relative;
+}
+#hora{
+    margin: 0 auto;
+}
+.centro{
+    position: absolute;
+  width: 10px;
+  height: 10px;
+  margin-left: -5px;
+  margin-top: -5px;
+  border-radius: 50%;
+  background-color: #333;
+  left: 50%;
+  top: 50%;
+}
+body{
+    background-color: rgb(32, 32, 32);
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight:bolder;
+}
